@@ -1,0 +1,24 @@
+.logo {
+  position: relative;
+  padding: 12px 56px 11px 55px;
+  border-bottom: 5px solid #bf2733;
+  margin-bottom: -5px;
+  background-color: #ee3643;
+
+  &:hover,
+  &:focus {
+    border-bottom-color: #9b1b25;
+    background-color: #ca2c37;
+  }
+
+  &:active {
+    border-bottom-color: #8f1922;
+    background-color: #ba2732;
+  }
+}
+
+.logo__img {
+  width: 109px;
+  height: 19px;
+  vertical-align: middle;
+}
